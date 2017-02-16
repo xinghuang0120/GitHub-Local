@@ -1,0 +1,12 @@
+install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools'))
+devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+system2('jupyter', '--version', TRUE, FALSE)
+
+install.packages("devtools")
+install.packages('RCurl')
+library(devtools)
+install_github("takluyver/IRdisplay")
+install_github("takluyver/IRkernel")
+IRkernel::installspec()
+print(system.file("kernelspec", package = "IRkernel"))
