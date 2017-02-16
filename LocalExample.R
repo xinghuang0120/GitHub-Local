@@ -57,7 +57,8 @@ ggplot(dfStates, aes(map_id = stateName))  +
   guides(fill=guide_legend(title=input$variable))
 
 library(ggplot2)
-jupyter notebook
 
 
 ## new new new new new
+## new2 new2 new2 new2 new2
+## new3 new3 new3 new3 new3
