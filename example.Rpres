@@ -1,0 +1,30 @@
+example
+========================================================
+author: Xing Huang    
+date: Feb 15
+autosize: true
+
+A first plot
+========================================================
+This presentation uses knitr.
+```{r, echo=FALSE}
+plot(1:20, pch=1:20)
+```
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
